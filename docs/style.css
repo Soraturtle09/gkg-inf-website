@@ -15,10 +15,68 @@ body {
 .footer {
 
 }
-.team img {
-    width: 20%;
-    
+
+.portraitRow1{
+    width: 60%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-right: 20%;
 }
-.teamPortrait text{
-    
+.portraitRow1 img{
+    height: auto;
+    width: 33%;
+}
+
+.portraitRow2{
+    width: 60%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.portraitRow2 img{
+    height: auto;
+    width: 33%;
+}
+
+.portraitRow3{
+    width: 60%;
+    height: fit-content;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.portraitRow3 img{
+    height: auto;
+    width: 33%;
+}
+
+
+.flexRows1 {
+    width: 60%;
+    height: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-around;  
+}
+.flexRows2 {
+    width: 60%;
+    height: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-around;
+}
+.flexRows3 {
+    width: 60%;
+    height: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-around;
 }
