@@ -1,4 +1,5 @@
 /* Remove the standard margin/padding of the html body */
+
 body {
     margin: 0;
     padding: 0;
@@ -79,4 +80,45 @@ body {
     display: flex;
     flex-grow: 1;
     justify-content:space-around;
+}
+
+.angebotButtons details{
+    padding-right: 50%;
+}
+.angebotButtons{
+    padding-left: 0%;
+}
+/*https://blog.bitsrc.io/pure-css-to-make-a-button-shine-and-gently-change-colors-over-time-5b685d9c6a7e*/
+/*https://github.com/paigen11/paigeniedringhaus.com/blob/master/src/components/Subscribe/Subscribe.scss#L14*/
+@keyframes TransitioningBackground{
+    0% {
+        background-position: 1%, 0%;
+    }
+    50% {
+        background-position: 99%, 100%;
+    }
+    100% {
+        background-position: 1%, 0%;
+    }
+}
+.basicButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+.basicButton button{
+    width: 60%;
+    height: 20%;
+    border-radius: 5px;
+    color: black;
+
+    text-align: center;
+    font-size: 5rem;
+
+    overflow: hidden;
+    background-image: (linear-gradient(270deg, #ffd700, #daa520));/*https://html-color.codes/gold*/
+    background-size: 400%, 400%;
+    animation: TransitioningBackground 10s ease infinite;
+    transition: 0.6s;
 }
