@@ -3,6 +3,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color:  #353935;
+    color: #03A062;
 }
 
 .menu {
@@ -15,6 +17,33 @@ body {
 
 .footer {
 
+}
+
+
+.textBox{
+    background-color: gray;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+
+    position: fixed;
+    bottom: 0px;
+
+
+    width: 83%;
+    height: auto;
+
+    color: black;
+}
+.homePageVideo{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
 }
 
 .portraitRow1{
@@ -106,6 +135,38 @@ body {
     width: 60%;
     height: 20%;
     border-radius: 5px;
+    border-color: #c4aead;
+    color: black;
+
+    text-align: center;
+    font-size: 5rem;
+
+    overflow: hidden;
+    background-image: linear-gradient(270deg, #dacfac, #a7a297);/*https://html-color.codes/gold*/
+    background-size: 200%, 200%;
+    animation: TransitioningBackground 10s ease infinite;
+    transition: 0.6s;
+}
+.advancedButton{
+    width: 60%;
+    height: 20%;
+    border-radius: 5px;
+    border-color: #838996;
+    color: black;
+
+    text-align: center;
+    font-size: 5rem;
+
+    overflow: hidden;
+    background-image: linear-gradient(270deg, #e5e4e2, #bfc1c2, #c0c0c0, #838996, #c4aead);/*https://html-color.codes/gold*/
+    background-size: 200%, 200%;
+    animation: TransitioningBackground 10s ease infinite;
+    transition: 0.6s;
+}
+.proButton{
+    width: 60%;
+    height: 20%;
+    border-radius: 5px;
     border-color: #daa520;
     color: black;
 
@@ -113,10 +174,24 @@ body {
     font-size: 5rem;
 
     overflow: hidden;
-    background-image: linear-gradient(270deg, #ffd700, #daa520);/*https://html-color.codes/gold*/
+    background-image: linear-gradient(270deg, #f8de7e, #ffd700, #daa520);/*https://html-color.codes/gold*/
     background-size: 200%, 200%;
     animation: TransitioningBackground 10s ease infinite;
     transition: 0.6s;
+}
+.elonMuskButton{
+    width: 60%;
+    height: 20%;
+    border-radius: 5px;
+    border-color: #cf24fa;
+    color: black;
 
+    text-align: center;
+    font-size: 5rem;
 
+    overflow: hidden;
+    background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);;/*https://html-color.codes/gold*/
+    background-size: 200%, 200%;
+    animation: TransitioningBackground 10s ease infinite;
+    transition: 0.6s;
 }

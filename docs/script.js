@@ -72,4 +72,18 @@ function randomColor() {
   
     document.getElementById("basicButton").innerHTML = color;
     console.log(color);
-  }
+}
+
+
+function openDetail(detailsElement) {
+    var detailsArray = ["basicDetails", "advancedDetails", "proDetails", "elonMuskDetails"];
+    if (document.getElementById(detailsElement).open) {
+        document.getElementById(detailsElement).open = false;
+    }
+    else{
+        detailsArray.forEach(id => {
+            document.getElementById(id).open = false;
+        });
+        document.getElementById(detailsElement).open = true;
+    }
+}

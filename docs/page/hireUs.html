@@ -2,9 +2,8 @@
 
 <div class="angebotButtons">
 
-<button class="basicButton">BASIC</button>
-
-<details>
+<button class="basicButton" onclick="openDetail('basicDetails')">BASIC</button>
+<details id="basicDetails">
     <summary></summary>
     HEUERN SIE UNS AN; SOGAR FÜR ARME FÜR NUR 9.99£ 
 
@@ -12,8 +11,10 @@
     UND IHR ABO BIETET IHNEN IMENSE VORTEILE FÜR EINEN LACHHAFTEN PREIS. </br>
     <button>KAUFEN</button>
 </details></p>
-<details>
-    <summary><button>ADVANCED</button></summary>
+
+<button class="advancedButton" onclick="openDetail('advancedDetails')">ADVANCED</button>
+<details id="advancedDetails">
+    <summary></summary>
     FINDEN SIE JETZT IHR LANG ERSEHNTES GLÜCK. 
     BEI UNSEREM NEUEN ANGEBOT, WELCHES NUR NOCH 5 TAGE REDUZIERT IST 
     UND FINDEN SIE IHREN WEG ZUM UTOPIA. 
@@ -22,8 +23,10 @@
     VORTEILE UND DIES ALLES NUR FÜR NICHT 99.99£ SONDERN FÜR GANZE 99.98£. </br>
     <button>KAUFEN</button>
 </details></p>
-<details>
-    <summary><button>PRO</button></summary>
+
+<button class="proButton" onclick="openDetail('proDetails')">PRO</button>
+<details id="proDetails">
+    <summary></summary>
     UNSER PRO ABO BIETET IHNEN MÖGLICHKEITEN DIE BIS ZUR UNENTLICHKEIT REICHEN. 
     SIE ERHALTEN ALLE VORHERIGEN VORTEILE 
     UND ALS GROSSES EXTRA HABEN SIE DURCH UNSERE KONTAKTE DIE MÖGLICHKEITEN DIE KONKURENZ AUSZUSCHALTEN. 
@@ -31,8 +34,10 @@
     FÜR NUR 999.99£ IST DAS EIN WAHRES SCHNÄPPCHEN.</br>
     <button>KAUFEN</button>
 </details></p>
-<details>
-    <summary><button>ELON MUSK</button></summary>
+
+<button class="elonMuskButton" onclick="openDetail('elonMuskDetails')">ELON MUSK</button>
+<details id="elonMuskDetails">
+    <summary></summary>
     WARTEN SIE NICHT UND SCHLAGEN SIE SOFORT ZU. 
     DIESES ANGEBOT STEHT NUR NOCH FÜR HEUTE UND IST NUR 1-MAL VERFÜGBAR 
     ALSO ZÖGERN SIE NICHT. SIE ERHALTEN DIE VOLLSTÄNDIGE MACHT 
