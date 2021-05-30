@@ -87,3 +87,8 @@ function openDetail(detailsElement) {
         document.getElementById(detailsElement).open = true;
     }
 }
+function clearInput() {
+    document.getElementById("name").value = "";
+    document.getElementById("Postadresse").value = "";
+    document.getElementById("anliegen").value = "Danke für Ihre Einsendung";
+}
